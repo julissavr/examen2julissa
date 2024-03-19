@@ -1,7 +1,5 @@
-body{
-	background-color: #252525;
-	font-size: 14px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');;
+
 :root{
 	--color-negro:#282d33;
 	--menu-hover:#ec3642;
@@ -10,9 +8,92 @@ body{
 	--fondo-footer:#212121;
 	--color-footer:#ccc;
 }
+
+
+body{
+	background-color: #252525;
+	font-size: 14px;
+}
 header{
 	background-color: var(--fondo-header);
 }
+
+#hero-slides h1{
+	font-size: 80px;
+	font-weight: 700;
+	padding-top: 2%;
+}
+
+#hero-slides h3{
+	font-size: 30px;
+	font-weight: 700;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+	text-align: left;
+	width: 360px;
+	height: 60px;
+	border:2px solid #fff ;
+	margin-left: 5%;
+	
+}
+.carousel-inner{
+	padding-bottom: 15%;
+}
+.carousel-item img{
+	object-fit:cover
+}
+
+.btn-hero{
+  background-color:#ec3642;
+  color: #FFFFFF;
+  padding: 10px 40px;
+  text-align: center;
+  display:inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right:72%;
+  margin-top: 2%;
+  cursor: pointer;
+}
+
+.btn-hero:hover{
+	color:#ec3642;
+	background-color: var(--color-rojo);
+
+}
+#intro{
+	padding-top: 3%;
+}
+#intro h4{
+	color: #fff;
+	font-size: 16px;
+	
+}
+
+#intro h3{
+	color: #fff;
+	font-size: 24px;
+	
+}
+#intro img{
+	width:400px;
+}
+
+.sports{
+	background-color: #212121;
+	color: #fff;
+	text-align: left;
+	padding: 3% 9%;	
+	margin-bottom: 7%;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+
+	
+
 footer{
 	background-color: var(--fondo-footer);
 	color: var(--color-footer);
